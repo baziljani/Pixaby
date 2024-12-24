@@ -1,0 +1,17 @@
+@use './components/style/Navbar.scss';
+@use './components/style/ImageGallery.scss';
+@use './components/style/Footer.scss';
+// @import './components/style/ImageModel.scss';
+body{
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+.app{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}.search-container{
+    padding: 20px;
+    text-align: center;
+}
